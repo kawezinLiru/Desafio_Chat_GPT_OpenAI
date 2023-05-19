@@ -18,6 +18,6 @@ const Loja = db.sequelize.define("loja",{
     }
 })
 
-Loja.sync({force: true})
+//Loja.sync({force: true})
 
 module.exports = Loja
